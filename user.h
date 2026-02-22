@@ -23,6 +23,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+//Wrapper declaration
+int shutdown(void);
 
 // ulib.c
 int stat(char*, struct stat*);
